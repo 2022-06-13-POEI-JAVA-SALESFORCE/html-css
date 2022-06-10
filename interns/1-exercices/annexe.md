@@ -9,7 +9,7 @@
 
 ### Générateur de favicon
 
-- [Faviconer](http://faviconer.com/)
+- [Faviconer converter](https://favicon.io/favicon-converter/)
 
 ## Compatibilité des balises HTML et propriétés CSS avec les navigateurs
 
@@ -28,6 +28,7 @@
 
 - [JS Bin](https://jsbin.com/)
 - [CodeSandBox](https://codesandbox.io/)
+- [Code pen](https://codepen.io/pen/)
 
 ## Images libre de licence
 
