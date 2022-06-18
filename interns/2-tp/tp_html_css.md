@@ -8,7 +8,7 @@
 ## contexte globale de l'application à produire
 
 Vous devez créer une application Web avec les langages HTML, CSS.
-La page web est décomposée en deux parties : 
+La page web est en deux parties : 
 - La partie de gauche contient des éléments HTML (image, paragraphe, textarea etc.)
 - La partie de droite contient un panneau de configuration permettant de modifier les éléments de la partie de gauche à l'aide du langage Javascript que nous verrons prochainement.
 Dans cette partie du TP, vous allez utiliser uniquement les langages HTML et CSS.
@@ -17,10 +17,10 @@ Voici le planning des tâches à accomplir :
     - Création de la page web avec les 2 blocs (droite et gauche) en utilisant le langage HTML
     - Mise en page CSS avec les positions
 2. Jour 2 :
+    - Responsive design pour une version mobile avec les media queries
+3. Jour 3 :
     - Mise en page avec le FlexBox
     - Mise en page avec le CSS Grid
-3. Jour 3 :
-    - Responsive design pour une version mobile avec les media queries
     - Si le temps le permet, intégration de Bootstrap
 
 ### Exigences Git
@@ -82,23 +82,20 @@ Se reporter aux explications du [TP sur Git et GitHub](https://github.com/2022-0
 ### Maquette de la page version desktop (bureau)
 ![img](img/maquette_desktop.png)
 
-## Consigne jour 2 : mise en page FlexBox et Grid
-
-- Dans une branche dédiée, remplacer/supprimer la mise en page effectuée avec les propriétés position par les propriétés Flexbox.
-- Dans une autre branche dédiée, remplacer/supprimer la mise en page effectuée avec les propriétés position par les propriétés CSS Grid.
-
-### Maquette de la page version desktop (bureau)
-![img](img/maquette_desktop.png)
-
-## Consigne jour 3 : responsive design media queries
+## Consigne jour 2 : responsive design media queries
 
 - Sur une branche dédiée, effectuez la mise en page mobile à l'aide des media queries.
-- Sur une autre branche, effectuez la mise en page pour tablette.
+- Sur une autre branche, effectuez la mise en page pour une tablette.
 
 ### Maquette de la page version mobile
 
 ### Maquette de la page version tablette
 
+## Consigne jour 3 : mise en page FlexBox et Grid
+
+- Dans une branche dédiée, faire la mise en page en utilisant les propriétés Flexbox.
+- Dans une autre branche dédiée, faire la mise en page en utilisant les propriétés CSS Grid.
+
 ### Bonus
 
-- Effectuez la mise en page de toutes les versions à l'aide de Bootstrap uniquement.
+- Effectuez la mise en page de toutes les versions avec Bootstrap.
