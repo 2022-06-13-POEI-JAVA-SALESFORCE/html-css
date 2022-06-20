@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire inscription des étudiants à l'université</title>
+</head>
+<body>
+    <form action="#">
+        <label for="lastname">Nom</label>
+        <input type="text" name="lastname" id="lastname">
+        <br><!--A éviter, utiliser les propriétés CSS à la place pour avoir plus de maitrise-->
+        <label for="firstname">Prénom</label>
+        <input type="text" name="firstname" id="firstname">
+        <br>
+        <label for="born">Lieu de naissance</label>
+        <input type="text" name="born" id="born">
+        <br>
+        <label for="country">Pays de naissance</label>
+        <select name="country" id="country">
+            <optgroup label="Europe">
+                <option value="french">France</option>
+                <option value="italy">Italie</option>
+                <option value="spain">Espagne</option>
+            </optgroup>
+            <optgroup label="Afrique">
+                <option value="senegal">Sénégal</option>
+                <option value="maroc">Maroc</option>
+                <option value="congo">Congo</option>
+            </optgroup>
+            <optgroup label="Amérique">
+                <option value="canada">Canada</option>
+                <option value="brasil">Brésil</option>
+                <option value="argentina">Argentine</option>
+            </optgroup>
+            <optgroup label="Asie orientale">
+                <option value="iran">Iran</option>
+                <option value="syria">Syrie</option>
+                <option value="saudi arabia">Arabie saoudite</option>
+            </optgroup>
+            <optgroup label="Asie Pacifique">
+                <option value="china">China</option>
+                <option value="japan">Japon</option>
+                <option value="Vietnam">Vietnam</option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="birthday">Date de naissance</label>
+        <input type="date" name="birthday" id="birthday">
+        <br>
+        <label for="average">Moyenne obtenu au BAC</label>
+        <input type="number" name="average" id="average" min="0" max="20">
+        <br>
+        <label for="degree">Formation</label>
+        <input type="text" name="degree" id="degree"/>
+        <br>
+        <fieldset>
+            <legend>Autre formation</legend>
+            <input type="checkbox" name="secondary-certificate" id="secondary-certificate">
+            <label for="secondary-certificate">Brevet des collèges</label>
+            <br>
+            <input type="checkbox" name="bachelor" id="bachelor">
+            <label for="bachelor">Bac</label>
+            <br>
+            <input type="checkbox" name="certificate" id="certificate">
+            <label for="certificate">BTS</label>
+            <br>
+            <input type="checkbox" name="university degree" id="university-degree">
+            <label for="university-degree">DUT</label>
+            <br>
+            <input type="checkbox" name="license" id="license">
+            <label for="license">Licence</label>
+            <br>
+            <input type="checkbox" name="master" id="master">
+            <label for="bachelor">Master</label>
+            <br>
+            <input type="checkbox" name="doctorat" id="doctorat">
+            <label for="bachelor">Doctorat</label>
+            <br>
+        </fieldset>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="mobile">Numéro de téléphone</label>
+        <input type="tel" name="mobile" id="mobile" pattern="[0][6-7][0-9]{8}" placeholder="sans espace" maxlength="10">
+        <br>
+        <textarea name="motivations" id="motivations" cols="30" rows="10" placeholder="Vos motivations"></textarea>
+        <fieldset>
+            <legend>BONUS</legend>
+            <label for="favorite-color">Couleur préferée</label>
+            <input type="color" name="favorite-color" id="favorite-color">
+            <input type="hidden" name="id" value="150">
+            <br>
+            <label for="en">Niveau en anglais</label>
+            <input type="range" name="en" id="en" min="0" max="100">
+        </fieldset>
+        <br>
+        <input type="submit" value="S'inscrire">
+    </form>
+</body>
+</html>
