@@ -80,7 +80,7 @@ Se reporter aux explications du [TP sur Git et GitHub](https://github.com/2022-0
 - un label "police du texte" avec une sélection  de fonts (polices).
 
 ### Maquette de la page version desktop (bureau)
-![img](img/maquette_desktop.png)
+![img](./img/mockups/desktop.png)
 
 ## Consigne jour 2 : responsive design media queries
 
@@ -88,9 +88,9 @@ Se reporter aux explications du [TP sur Git et GitHub](https://github.com/2022-0
 - Sur une autre branche, effectuez la mise en page pour une tablette.
 
 ### Maquette de la page version mobile
-
+![img](./img/mockups/mobile.png)
 ### Maquette de la page version tablette
-
+![img](./img/mockups/tablet.png)
 ## Consigne jour 3 : mise en page FlexBox et Grid
 
 - Dans une branche dédiée, faire la mise en page en utilisant les propriétés Flexbox.
