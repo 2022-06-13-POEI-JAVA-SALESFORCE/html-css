@@ -1,0 +1,121 @@
+main {
+    margin: 10px auto;
+    width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff5b6b;
+}
+
+section{
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color:#fff;
+}
+
+section:nth-child(odd){
+    background-color: #001f33;
+}
+
+section:nth-child(even){
+    background-color: #007ccc;
+}
+
+h2 {
+    padding: 10px;
+    text-decoration: underline;
+}
+/* Specific to new.html */
+form {
+    display: block;
+    margin: 10px auto;
+    background: #4caf50;
+    padding: 5px;
+    opacity: 0.6;
+}
+
+h1#new {
+    color: #fed94c;
+}
+
+input[type=text],
+input[type=button] {
+    display: block;
+    width: 25%;
+    margin: 10px;
+}
+
+input[type=checkbox] {
+    display: inline;
+}
+
+@media screen and (max-width: 579px) {
+    body{
+        background-color: orange;
+    }
+    main {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+    }
+    h2 {
+        margin: 0;
+    }
+    section {
+        display: block;
+        margin: 10px auto;
+    }
+    ol {
+        margin: 0;
+    }
+    form {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 579px) and (max-width: 768px ) {
+    body{
+        background-color: #007ccc;
+    }
+    main {
+        box-sizing: content-box;
+        height: 100%;
+        margin: 2px auto;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+    form {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        opacity: 1;
+        font-size: 3rem;
+    }
+    label,
+    p {
+        padding-left: 2rem;
+        margin-top: 0;
+        text-transform: uppercase;
+    }
+    input {
+        font-size: 3.5rem;
+    }
+    input[type=radio] {
+        width: 37%;
+        height: 75px;
+    }
+    input[type=text],
+    input[type=button]  {
+        width: 75%;
+        margin: 10px auto;
+    }
+
+    input[type=button]  {
+        background-color:#fed94c;
+        color:#007ccc;
+    }
+}
